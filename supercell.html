@@ -4,31 +4,80 @@
 <head>
   <meta charset="utf-8">
   <title>Supercell - HTML</title>
+
+  <style>
+    body{
+      margin: 0;
+    }
+    #grid a, #title a{
+      color: green;
+      text-decoration: none;
+    }
+    h1{
+      color:black;
+      font-size: 50px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0;
+      padding: 30px;
+    }
+    #grid .list{
+      border-right: 1px solid gray;
+      width: 150px;
+      margin: 0;
+      padding: 20px;
+      padding-left: 0px;
+    }
+    #grid .list ol{
+      padding-top: 0px;
+    }
+    #grid .now{
+      color: limegreen;
+    }
+    #grid .outlink{
+      color: darkviolet;
+      text-decoration: none;
+    }
+    #grid{
+      display: grid;
+      grid-template-columns: 200px 1fr;
+    }
+    .text{
+      paddin:
+    }
+  </style>
 </head>
 
 <body>
-  <h1><a href="index.html">Supercell</a></h1>
-  <ul>
-    <li><a href="supercell.html">Supercell</a></li>
-    <li><a href="aboutus.html">ABOUT US</a></li>
-  </ul>
 
-  <ol>
-    <li><a href="coc.html">Clash of Clans</a></li>
-    <li><a href="cr.html">Clash Royale</a></li>
-    <li><a href="bs.html">Brawl Stars</a></li>
-  </ol>
+  <h1><a href="index.html" id="title">Supercell</a></h1> <!-- h1 css 미완성 -->
+  <div id="grid">
 
-  <h2><a href="https://supercell.com/en/" target="_blank" title="Supercell Official Website">Supercell</a></h2>
+    <div class="list">
+      <ul>
+        <li><a href="supercell.html" class="now">Supercell</a></li>
+        <li><a href="aboutus.html">ABOUT US</a></li>
+      </ul>
+      <ol>
+        <li><a href="coc.html">Clash of Clans</a></li>
+        <li><a href="cr.html">Clash Royale</a></li>
+        <li><a href="bs.html">Brawl Stars</a></li>
+      </ol>
+    </div>
 
-  <p style="margin-bottom:50px;">
-    <strong>Supercell</strong> is a mobile game developer based in Helsinki, Finland, with offices in San Francisco, Seoul and Shanghai.<br>
-    Since our launch in 2010, we've brought <u>five games</u> to the global market.<br>
-    Hay Day, Clash of Clans, Boom Beach, Clash Royale and Brawl Stars.<br>
-    Our goal is to make the best games - games that are played by as many people as possible, enjoyed for years and remembered forever.
-  </p>
+    <div class="text">
+      <h2><a href="https://supercell.com/en/" target="_blank" title="Supercell Official Website" class="outlink">Supercell</a></h2>
+      <p style="margin-bottom:50px;">
+        <strong>Supercell</strong> is a mobile game developer based in Helsinki, Finland, with offices in San Francisco, Seoul and Shanghai.<br>
+        Since our launch in 2010, we've brought <u>five games</u> to the global market.<br>
+        Hay Day, Clash of Clans, Boom Beach, Clash Royale and Brawl Stars.<br>
+        Our goal is to make the best games - games that are played by as many people as possible, enjoyed for years and remembered forever.
+      </p>
+      <img src="supercell.png">
+    </div>
 
-  <img src="supercell.png">
+  </div>
+
 </body>
 
 </html>
