@@ -1,0 +1,63 @@
+/*  settings */
+body{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+
+/* grid line */
+#grid{
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+
+/* logo */
+#logo h1{
+  color: black;
+  font-size: 50px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 30px;
+}
+#logo a{
+  color: #12B36D;
+}
+
+/* list */
+#grid .list{
+  border-right: 1px solid gray;
+  width: 150px;
+  margin: 0;
+  padding: 20px;
+  padding-left: 0px;
+}
+#grid .list ol{
+  padding-top: 0px;
+}
+#grid a{
+  color: green; /* #008000 */
+}
+#grid .now{
+  color: #5CE6AA;
+}
+
+/* text */
+#grid .outlink{
+  color: #8C238C;
+}
+#grid .text h2{
+  color: #8712B3;
+  font-size: 30px;
+}
+#grid .text p{
+  margin-bottom:40px;
+}
+
+/* etc. */
+#noti{
+  text-align: right;
+  padding: 30px;
+  padding-top: 100px;
+}
