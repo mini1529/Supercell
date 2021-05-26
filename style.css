@@ -63,7 +63,7 @@ a{
 }
 
 /* media quary */
-@media(max-width: 800px){
+@media(max-width: 480px){
   /* grid off */
   #grid{
     display: block;
@@ -81,7 +81,7 @@ a{
   #logo h1{
     padding: 20px;
   }
-  
+
   /* list */
   #grid .list{
     padding: 7px;
