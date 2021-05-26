@@ -61,3 +61,39 @@ a{
   padding: 30px;
   padding-top: 100px;
 }
+
+/* media quary */
+@media(max-width: 800px){
+  /* grid off */
+  #grid{
+    display: block;
+  }
+  #grid .list{
+    border-right: none;
+    border-bottom: 1px solid gray;
+  }
+  #logo h1{
+    border-bottom: none;
+    border-bottom: 1px solid gray;
+  }
+
+  /* logo */
+  #logo h1{
+    padding: 20px;
+  }
+  
+  /* list */
+  #grid .list{
+    padding: 7px;
+    width: 170px;
+  }
+
+  /* text */
+  #grid .text h2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  #grid .text{
+    padding-left: 25px;
+  }
+}
