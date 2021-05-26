@@ -63,7 +63,7 @@ a{
 }
 
 /* media quary */
-@media(max-width: 480px){
+@media(max-width: 1079px){
   /* grid off */
   #grid{
     display: block;
